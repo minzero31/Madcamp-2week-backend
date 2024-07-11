@@ -10,10 +10,10 @@ app = Flask(__name__)
 CORS(app)
 
 # Google Vision API Key
-VISION_API_KEY = 'AIzaSyD3l7QnwVBm30kpO1rLzTsImTEKu8mFXYQ'  # 여기에 실제 API Key를 입력하세요
+VISION_API_KEY = 'Enter API Key'  # 여기에 실제 API Key를 입력하세요
 
 # Google Gemini API Key
-GEMINI_API_KEY = 'AIzaSyC-gUmcnhbYM83Ocjg92jxLXslYtfWNc9Y'  # 여기에 실제 Google Gemini API Key를 입력하세요
+GEMINI_API_KEY = 'Enter API Key'  # 여기에 실제 Google Gemini API Key를 입력하세요
 
 # Google Gemini API 설정
 genai.configure(api_key=GEMINI_API_KEY)
